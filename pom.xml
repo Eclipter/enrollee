@@ -6,6 +6,11 @@
 
     <groupId>by.bsu.diploma</groupId>
     <artifactId>enrollee</artifactId>
+    <packaging>pom</packaging>
     <version>1.0-SNAPSHOT</version>
+
+    <modules>
+        <module>enrollee-service</module>
+    </modules>
 
 </project>
