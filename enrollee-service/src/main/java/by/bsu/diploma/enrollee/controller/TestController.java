@@ -8,14 +8,12 @@ import by.bsu.diploma.enrollee.dto.TestResultContext;
 import by.bsu.diploma.enrollee.service.TestService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
-import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.*;
 
 import javax.validation.Valid;
 import java.util.List;
 
-@Controller
-@RequestMapping("/tests")
+@RestController
 public class TestController {
 
     @Autowired

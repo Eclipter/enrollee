@@ -2,7 +2,6 @@ package by.bsu.diploma.enrollee.domain;
 
 import lombok.Getter;
 import lombok.Setter;
-import org.springframework.data.rest.core.annotation.RestResource;
 
 import javax.persistence.Entity;
 import javax.persistence.ManyToOne;
@@ -19,7 +18,6 @@ public class Room extends AbstractEntity {
 	private String number;
 
 	@ManyToOne
-	@RestResource(exported = false)
 	private University university;
 
 	@OneToMany(mappedBy = "room")

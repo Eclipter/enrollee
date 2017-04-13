@@ -41,7 +41,7 @@ public class TestServiceImpl implements TestService {
 
     @Override
     public List<Subject> getSubjectsByUniversityId(Long universityId) {
-        return subjectRepository.findByUniversityId(universityId);
+        return subjectRepository.findByUniversitiesId(universityId);
     }
 
     @Override

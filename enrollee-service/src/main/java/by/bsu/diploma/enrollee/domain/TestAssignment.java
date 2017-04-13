@@ -2,7 +2,6 @@ package by.bsu.diploma.enrollee.domain;
 
 import lombok.Getter;
 import lombok.Setter;
-import org.springframework.data.rest.core.annotation.RestResource;
 
 import javax.persistence.Entity;
 import javax.persistence.JoinColumn;
@@ -21,11 +20,9 @@ public class TestAssignment extends AbstractEntity {
 
 	@ManyToOne
 	@JoinColumn(name = "enrollee_id")
-	@RestResource(exported = false)
 	private Enrollee enrollee;
 
 	@ManyToOne
-	@RestResource(exported = false)
 	private Test test;
 
 }
