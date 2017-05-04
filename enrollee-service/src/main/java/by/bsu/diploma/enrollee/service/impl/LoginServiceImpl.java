@@ -1,6 +1,6 @@
 package by.bsu.diploma.enrollee.service.impl;
 
-import by.bsu.diploma.enrollee.domain.User;
+import by.bsu.diploma.commons.domain.User;
 import by.bsu.diploma.enrollee.dto.SignUpRequestContext;
 import by.bsu.diploma.enrollee.repository.EnrolleeRepository;
 import by.bsu.diploma.enrollee.repository.UserRepository;

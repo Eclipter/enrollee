@@ -1,4 +1,4 @@
-package by.bsu.diploma.enrollee.domain;
+package by.bsu.diploma.commons.domain;
 
 import lombok.Data;
 

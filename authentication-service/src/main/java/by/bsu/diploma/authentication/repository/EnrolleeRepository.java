@@ -1,4 +1,4 @@
-package by.bsu.diploma.enrollee.repository;
+package by.bsu.diploma.authentication.repository;
 
 import by.bsu.diploma.commons.domain.Enrollee;
 

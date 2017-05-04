@@ -1,6 +1,6 @@
-package by.bsu.diploma.enrollee.domain;
+package by.bsu.diploma.commons.domain;
 
-import by.bsu.diploma.enrollee.domain.enums.DocumentTypeEnum;
+import by.bsu.diploma.commons.domain.enums.DocumentTypeEnum;
 import lombok.Getter;
 import lombok.Setter;
 

@@ -1,6 +1,6 @@
 package by.bsu.diploma.enrollee.dto;
 
-import by.bsu.diploma.enrollee.domain.Enrollee;
+import by.bsu.diploma.commons.domain.Enrollee;
 import lombok.Getter;
 import lombok.Setter;
 import org.hibernate.validator.constraints.Email;

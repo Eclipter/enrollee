@@ -1,8 +1,8 @@
 package by.bsu.diploma.enrollee.service;
 
-import by.bsu.diploma.enrollee.domain.Subject;
-import by.bsu.diploma.enrollee.domain.Test;
-import by.bsu.diploma.enrollee.domain.University;
+import by.bsu.diploma.commons.domain.Subject;
+import by.bsu.diploma.commons.domain.Test;
+import by.bsu.diploma.commons.domain.University;
 import by.bsu.diploma.enrollee.dto.TestAddContext;
 import by.bsu.diploma.enrollee.dto.TestResultContext;
 

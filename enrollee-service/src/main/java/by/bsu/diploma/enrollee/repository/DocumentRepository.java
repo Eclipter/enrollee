@@ -1,6 +1,6 @@
 package by.bsu.diploma.enrollee.repository;
 
-import by.bsu.diploma.enrollee.domain.Document;
+import by.bsu.diploma.commons.domain.Document;
 import org.springframework.data.jpa.repository.JpaRepository;
 
 import java.util.List;

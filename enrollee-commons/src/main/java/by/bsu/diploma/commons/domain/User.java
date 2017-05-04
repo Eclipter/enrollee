@@ -1,4 +1,4 @@
-package by.bsu.diploma.enrollee.domain;
+package by.bsu.diploma.commons.domain;
 
 import com.fasterxml.jackson.annotation.JsonProperty;
 import com.fasterxml.jackson.annotation.JsonProperty.Access;

@@ -1,6 +1,6 @@
 package by.bsu.diploma.enrollee.repository;
 
-import by.bsu.diploma.enrollee.domain.Test;
+import by.bsu.diploma.commons.domain.Test;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.data.jpa.repository.Query;
 

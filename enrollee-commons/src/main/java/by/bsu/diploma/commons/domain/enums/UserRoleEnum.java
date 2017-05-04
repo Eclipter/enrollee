@@ -1,4 +1,4 @@
-package by.bsu.diploma.enrollee.domain.enums;
+package by.bsu.diploma.commons.domain.enums;
 
 public enum UserRoleEnum {
 	ENROLLEE, METHODIST

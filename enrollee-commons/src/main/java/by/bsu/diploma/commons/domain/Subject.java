@@ -1,37 +1,37 @@
-package by.bsu.diploma.enrollee.domain;
+package by.bsu.diploma.commons.domain;
 
 import lombok.Getter;
 import lombok.Setter;
 
 import javax.persistence.Entity;
-import javax.persistence.ManyToOne;
+import javax.persistence.ManyToMany;
 import javax.persistence.OneToMany;
 import java.util.List;
 
 @Entity
 @Getter
 @Setter
-public class Room extends AbstractEntity {
+public class Subject extends AbstractEntity {
 
-	private Integer capacity;
+	private String code;
 
-	private String number;
+	private String name;
 
-	@ManyToOne
-	private University university;
+	@ManyToMany(mappedBy = "subjects")
+	private List<University> universities;
 
-	@OneToMany(mappedBy = "room")
+	@OneToMany(mappedBy = "subject")
 	private List<Test> tests;
 
 	public Test addTest(Test test) {
 		getTests().add(test);
-		test.setRoom(this);
+		test.setSubject(this);
 		return test;
 	}
 
 	public Test removeTest(Test test) {
 		getTests().remove(test);
-		test.setRoom(null);
+		test.setSubject(null);
 		return test;
 	}
 
